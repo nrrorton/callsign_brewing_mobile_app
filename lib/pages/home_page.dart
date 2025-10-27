@@ -5,7 +5,7 @@ import 'package:url_launcher/url_launcher.dart'; // For opening website links
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
-  // Helper to open URL in browser
+  // Helper function to open URL in browser
   void _launchBeerMenu() async {
     final Uri url = Uri.parse('https://www.callsignbrewing.com/our-beers/');
     if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
@@ -18,9 +18,11 @@ class HomePage extends StatelessWidget {
     return PageLayout(
       title: 'HOME', // Title of Home Page
       child: SingleChildScrollView(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
+        child: Center( //Centering the column horizontally 
+          child: Column (
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center, 
+            children: [
             const SizedBox(height: 60),
 
             // Main Title
@@ -77,6 +79,7 @@ class HomePage extends StatelessWidget {
 
             const SizedBox(height: 40),
           ],
+          ),
         ),
       ),
     );
