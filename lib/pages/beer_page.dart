@@ -15,7 +15,10 @@ class BeerPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Beer data list — name, abv, and URL
+    /* Beer data list — name, abv, and URL
+       Any new addition/changes to the beer lineup will be made through
+       this "beers" variable and pictures can be added/removed from the
+       assets/images directory as needed. */
     final beers = [
       {
         'name': 'FREEDOM LAGER',
