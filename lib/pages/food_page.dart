@@ -38,6 +38,7 @@ class FoodPage extends StatelessWidget {
               const SizedBox(height: 30),
 
               // Clickable menu image
+              // Can add separate images here of different food items at a later time.
               GestureDetector(
                 onTap: _launchKitchenPage,
                 child: ClipRRect(

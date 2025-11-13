@@ -7,7 +7,9 @@ class StaffPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Staff data (placeholder paths + labels)
-    // The text and images can be updated once this information is received
+    /* The text and images can be updated once this information is received.
+       Ensure all images are placed in the correct directory assets/images when 
+       adding pictures of the staff. */
     final List<Map<String, String>> staff = [
       {'name': 'STAFF 1', 'image': 'assets/images/staff1.png'},
       {'name': 'STAFF 2', 'image': 'assets/images/staff2.png'},

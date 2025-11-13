@@ -104,6 +104,8 @@ class MerchPage extends StatelessWidget {
                   Row(
                     children: [
                       // Placeholder for the images
+                      // This is the location for updating images in the bottom 
+                      // section of the page.
                       Container(
                         width: 80,
                         height: 80,
