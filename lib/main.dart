@@ -1,3 +1,6 @@
+// This is the entry point for the Callsign Brewing Flutter app.
+// It sets up the app theme, defines named routes, and launches the home page.
+
 import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
 import 'pages/beer_page.dart';
